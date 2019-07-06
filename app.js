@@ -31,7 +31,7 @@ app.use(cors({
 app.use(bodyParser.urlencoded({ extended: true }))
 
 app.use(session({
-    secret: process.env.CO0KIE_SECRET,
+    secret: process.env.COOKIE_SECRET,
     resave: false,
     saveUninitialized: true,
     cookie: {
