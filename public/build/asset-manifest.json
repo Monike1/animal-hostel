@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d307012a.chunk.css",
+    "main.js": "/static/js/main.02df3eb0.chunk.js",
+    "main.js.map": "/static/js/main.02df3eb0.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.1ef35742.chunk.css": "/static/css/2.1ef35742.chunk.css",
+    "static/js/2.21fa248d.chunk.js": "/static/js/2.21fa248d.chunk.js",
+    "static/js/2.21fa248d.chunk.js.map": "/static/js/2.21fa248d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.5b11098a81ec3a988b182be0d3866589.js": "/precache-manifest.5b11098a81ec3a988b182be0d3866589.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.1ef35742.chunk.css.map": "/static/css/2.1ef35742.chunk.css.map",
+    "static/css/main.d307012a.chunk.css.map": "/static/css/main.d307012a.chunk.css.map",
+    "static/media/blank-profile.png": "/static/media/blank-profile.6732bd42.png",
+    "static/media/App.css": "/static/media/devon-janse-van-rensburg-1225283-unsplash.4bc9d19c.jpg",
+    "static/media/logo.svg": "/static/media/logo.709a3322.svg"
+  }
+}
