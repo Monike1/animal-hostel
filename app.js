@@ -12,6 +12,7 @@ const cookieParser = require('cookie-parser');
 
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
+const MongoStore = require('connect-mongo')(session);
 
 mongoose.connect(process.env.MONGODB_URI, {useNewUrlParser: true})
     .then(()=> {
@@ -36,7 +37,11 @@ app.use(session({
     saveUninitialized: true,
     cookie: {
       maxAge: 600000
-    }
+    },
+    store: new MongoStore({
+      mongooseConnection: mongoose.connection,
+      ttl: 24 * 60 * 60 // 1 day
+    })
   }))
 
 // view engine setup
